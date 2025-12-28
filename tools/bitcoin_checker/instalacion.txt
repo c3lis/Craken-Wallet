@@ -1,0 +1,1 @@
+npm install bitcoinjs-lib bip39 node-fetch

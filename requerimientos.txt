@@ -1,0 +1,11 @@
+pip install os sys argparse hashlib
+npm install @solana/web3.js ed25519-hd-key bip39
+
+# Modo de uso entropia_generator.py -n 100 -w english.txt --check // importante el archivo english.txt contiene lista de palabras semillas a usarse.
+
+# Todos los resultados apareceran en ./tools/solana_check la cartera que tenga fondos aparecera en ./tools/solana_check/found_with_balance.txt
+
+# Herramienta creada en python y java
+
+# Para hacer test a una solo billetera y comprobar el escript > python3 entropia_generator.py -t "insane area frozen hurt outside resist large found october october october area" # No coloque la suya coloque una de ejemplo
+
